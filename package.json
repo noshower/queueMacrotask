@@ -1,0 +1,53 @@
+{
+  "name": "queueMacrotask",
+  "version": "1.0.0",
+  "description": "Using macrotasks in JavaScript with queueMacrotask()，lower delay than setTimeout",
+  "main": ".babelrc.js",
+  "scripts": {
+    "commit": "cz",
+    "prepare": "husky install",
+    "pre-commit": "lint-staged"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noshower/queueMacrotask.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noshower/queueMacrotask/issues"
+  },
+  "homepage": "https://github.com/noshower/queueMacrotask#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-typescript": "^7.13.0",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@tongtian/eslint-config-base-preset": "^1.1.6",
+    "@tongtian/jest-config-preset": "^2.0.0",
+    "@tongtian/prettier-preset": "^1.1.3",
+    "@types/jest": "^26.0.23",
+    "commitizen": "^4.2.4",
+    "core-js": "^3.13.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^6.0.0",
+    "jest": "^27.0.3",
+    "lerna": "^4.0.0",
+    "lint-staged": "^11.0.0",
+    "rollup": "^2.50.5",
+    "rollup-plugin-cleaner": "^1.0.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "tslib": "^1.14.1",
+    "typescript": "^4.3.2"
+  },
+  "volta": {
+    "node": "14.17.0",
+    "npm": "7.12.0"
+  }
+}
