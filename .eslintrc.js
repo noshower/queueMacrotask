@@ -2,7 +2,7 @@ module.exports = {
   root: true,
   extends: ['@tongtian/eslint-config-base-preset'],
   globals: {
-    my: true,
+    window: true,
   },
   parserOptions: {
     tsconfigRootDir: __dirname,

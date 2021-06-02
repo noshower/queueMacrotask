@@ -2,11 +2,11 @@
   "name": "queueMacrotask",
   "version": "1.0.0",
   "description": "Using macrotasks in JavaScript with queueMacrotask()，lower delay than setTimeout",
-  "main": ".babelrc.js",
   "scripts": {
     "commit": "cz",
     "prepare": "husky install",
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "build": "rollup -c"
   },
   "config": {
     "commitizen": {
@@ -17,9 +17,23 @@
     "type": "git",
     "url": "git+https://github.com/noshower/queueMacrotask.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "queue",
+    "task",
+    "microtask",
+    "macrotask"
+  ],
+  "author": "noshower",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "lib",
+    "types"
+  ],
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
   "bugs": {
     "url": "https://github.com/noshower/queueMacrotask/issues"
   },
